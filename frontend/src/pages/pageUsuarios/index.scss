@@ -1,0 +1,64 @@
+.pagina-usuarios{
+    .secaomae{
+        background-color:#b0c4de;
+        min-width: 100vh;
+        min-height: 100vh;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 100px;
+    }
+
+    .secaocadastro{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        input{
+            width: 185px;
+        }
+
+        .infosuser{
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+            align-items: center;
+            gap: 30px;
+        }
+    }
+
+    .secaobusca{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 20px;
+
+        .buscar{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 10px;
+        }
+
+        table{
+            width: 700px;
+            background-color: grey;
+
+            th{
+                background-color: #5f9ea0;
+                padding: 5px;
+            }
+
+            td{
+                background-color: #ffffff;
+                text-align: center;
+                padding: 5px;
+            }
+        }
+    }
+}

@@ -1,0 +1,20 @@
+.pagina-home{
+    background-color:#b0c4de;
+    min-width: 100vh;
+    min-height: 100vh;
+
+    .secaomae{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        height: 100vh;
+        gap: 20px;
+
+        .botoes{
+            display: flex;
+            flex-direction: row;
+            gap: 40px;
+        }
+    }
+}
